@@ -96,26 +96,5 @@ def orthologs(blastp_1vs2, blastp_2vs1, blastp_1vs1, blastp_2vs2):
 
 
 
-file1 = '/Users/Emilie/Desktop/Reg_Gen/sorted.1_results.txt'
-file2 = '/Users/Emilie/Desktop/Reg_Gen/sorted.2_results.txt'
-file3 = '/Users/Emilie/Desktop/Reg_Gen/sorted.MP_results.txt'
-file4 = '/Users/Emilie/Desktop/Reg_Gen/sorted.GO_results.txt'
-results = orthologs(file1, file2, file3, file4)
-
-results[4].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/myBBH.txt', header=None, index=None, sep = '\t')
-#results[2].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/besthits_4.txt', header=None, index=None, sep = '\t')
-
-#if I want output...        
-results[0].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/mytest_1.txt', header=None, index=None, sep = '\t')
-results[1].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/mytest_2.txt', header=None, index=None, sep = '\t')
-results[2].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/mytest_3.txt', header=None, index=None, sep = '\t')
-results[3].to_csv(r'/Users/Emilie/Desktop/Reg_Gen/mytest_4.txt', header=None, index=None, sep = '\t')
-
-
-
-
-
-
-
 
 
