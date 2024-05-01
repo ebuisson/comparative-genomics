@@ -88,9 +88,6 @@ def functional_regions(dict):
         str=''
     return(shannon)
 
-file = '/Users/Emilie/Desktop/Reg_Gen/sequences_yes.aligned.aln'
-barplot(functional_regions(make_dict(file)))
-        
     
     
     
